@@ -1,0 +1,148 @@
+.section-1 {
+    background-color: $clr2;
+    margin: 0;
+    padding: 0;
+    height: 684px;
+
+    .container {
+        max-width: 1110px;
+        margin: auto;
+        display: flex;
+        padding-top: 200px;
+
+        .home-main-title {
+            font-family: Livvic-Bold;
+            letter-spacing: normal;
+            font-size: 48px;
+            line-height: 48px;
+            color: #fff;
+            margin: 0;
+            width: 65%;
+
+        }
+
+        .line-1,
+        .line-2,
+        .line-3 {
+            position: relative;
+
+        }
+
+        .shape {
+            position: absolute;
+            left: -20%;
+        }
+
+        .oval {
+            position: absolute;
+            left: -15%;
+            top: 0.75rem;
+            opacity: 0.9;
+        }
+
+        .home-title {
+            position: relative;
+
+            .rectangle {
+                position: absolute;
+                width: 50px;
+                height: 4px;
+                background-color: #f67e7e;
+                top: -15%;
+            }
+        }
+
+        // .shape {
+        //     position: relative;
+        //     left: -20%;
+        //     top: 11%;
+        // }
+
+        // .oval {
+        //     position: relative;
+        //     right: 26%;
+        //     top: 13%;
+        //     opacity: 0.9;
+
+        // }
+
+        span {
+            color: $clr6;
+            font-size: rem(18px);
+            line-height: 28px;
+            font-family: Livvic-Bold;
+        }
+
+        p {
+            font-size: rem(15px);
+            line-height: 25px;
+        }
+    }
+
+
+}
+
+.section-2 {
+    height: 745px;
+    background-color: #004047;
+
+
+    .section-2-title {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+
+    .container {
+        max-width: 1110px;
+        margin: auto;
+        display: flex;
+        padding-top: 150px;
+    }
+
+    .section-2-title {
+        font-family: Livvic-Bold;
+        font-size: rem(38px);
+        text-align: center;
+        gap: 2em;
+
+        .people-stories {
+            display: flex;
+            gap: 1em;
+        }
+
+        span {
+            color: $clr5;
+
+        }
+
+        .people-name {
+            color: $clr5;
+            font-size: rem(18px)
+        }
+
+        p {
+            font-family: Livvic;
+            line-height: 25px;
+            font-size: rem(15px);
+            margin: 0;
+        }
+
+        .people-position {
+            font-size: rem(13px);
+            font-family: Livvic-Italic;
+        }
+
+        img {
+            width: 62px;
+            height: 62px;
+            border: 2px solid #c4fffe;
+            border-radius: 50%;
+            margin-top: 0.5em;
+        }
+
+    }
+
+
+}

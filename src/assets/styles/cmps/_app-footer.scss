@@ -1,0 +1,107 @@
+.footer-conatiner {
+    height: 200px;
+    background-color: $clr6;
+
+    section {
+        max-width: 1110px;
+        margin: auto;
+        display: flex;
+        padding-top: 4rem;
+        gap: 15rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        width: 153px;
+        height: 48px;
+        border-radius: 24px;
+        border: 3px solid #012f34;
+        background-color: inherit;
+        font-family: Livvic-Bold;
+        font-size: rem(18px);
+        color: #012f34
+    }
+
+    .contact-title {
+        font-size: rem(48px);
+        font-family: Livvic-Bold;
+        color: #012f34
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.myteam-info {
+    background-color: #002529;
+    height: 196px;
+
+
+    .myteam-container {
+        padding-top: 45px;
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        gap: 7em;
+
+        .logo {
+            font-family: Livvic-Bold;
+            font-size: 32px;
+        }
+
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+
+        .links {
+            display: flex;
+            gap: 3em;
+
+            a {
+
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .mid {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6em;
+        width: 40%;
+
+        span {
+            opacity: 0.6;
+        }
+    }
+
+    .right {
+
+        display: flex;
+        flex-direction: column;
+        gap: 4em;
+
+        .social-links {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 0.5em;
+        }
+
+        .copy-right {
+            opacity: 0.6;
+        }
+
+
+    }
+
+    p {
+        margin: 0;
+    }
+}
